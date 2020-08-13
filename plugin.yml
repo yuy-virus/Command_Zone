@@ -1,0 +1,20 @@
+name: Yzone
+main: yuy\Yzone
+version: yuy-virus
+author: yuy
+api: 3.0.0
+
+commands:
+  zonec:
+    permission: zone.command.zonec
+    description: "Zone_Create_Command - made by yuy"
+    
+  zoned:
+    permission: zone.command.zoned
+    description: "Zone_delate_Command - made by yuy"
+    
+permissions:
+  zone.command.zonec:
+    default: op
+  zone.command.zoned:
+    default: op
